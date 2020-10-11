@@ -1,3 +1,14 @@
-body{
-    background-color: brown;
+*{
+    background-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#nav-prototipo-tab:hover{
+    background-color: blue;
+    color: #ffffff;
+}
+
+#nav-prototipo p {
+    background-color: blue;
+    color: #ffffff;
 }
