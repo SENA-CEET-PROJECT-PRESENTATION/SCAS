@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="Style.css">
     <title>Document</title>
 </head>
-<body>
+<body style="overflow-x: hidden;">
     
     <div class="p-2 bg-dark text-white text-center">
         <h1 class="animate__animated animate__rollIn animate__slow">SCAS</h1>
@@ -26,10 +26,14 @@
     <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
           <a class="nav-link" id="nav-equipo-tab" data-toggle="tab" href="#nav-equipo" role="tab" aria-controls="nav-equipo" aria-selected="true">Nuestro equipo</a>
-          <a class="nav-link" id="nav-prototipo-tab" data-toggle="tab" href="#nav-prototipo" role="tab" aria-controls="nav-prototipo" aria-selected="false">Prototipo</a>
           <a class="nav-link" id="nav-introducción-tab" data-toggle="tab" href="#nav-introducción" role="tab" aria-controls="nav-introducción" aria-selected="false">Introducción</a>
           <a class="nav-link" id="nav-objetivog-tab" data-toggle="tab" href="#nav-objetivog" role="tab" aria-controls="nav-objetivog" aria-selected="false">Objetivo General</a>
-          <a class="nav-link" id="nav-objetivoes-tab" data-toggle="tab" href="#nav-objetivoes" role="tab" aria-controls="nav-objetivoes" aria-selected="false">Objetivos Especificoss</a>
+          <a class="nav-link" id="nav-objetivoes-tab" data-toggle="tab" href="#nav-objetivoes" role="tab" aria-controls="nav-objetivoes" aria-selected="false">Objetivos Especificos</a>
+          <a class="nav-link" id="nav-planteamiento-tab" data-toggle="tab" href="#nav-planteamiento" role="tab" aria-controls="nav-planteamiento" aria-selected="false">Planteamiento</a>
+          <a class="nav-link" id="nav-alcance-tab" data-toggle="tab" href="#nav-alcance" role="tab" aria-controls="nav-alcance" aria-selected="false">Alcance</a>
+          <a class="nav-link" id="nav-justificacion-tab" data-toggle="tab" href="#nav-justificacion" role="tab" aria-controls="nav-justificacion" aria-selected="false">Justificación</a>
+          <a class="nav-link" id="nav-justificacion-tab" data-toggle="tab" href="#nav-justificacion" role="tab" aria-controls="nav-justificacion" aria-selected="false">Justificación</a>
+          
         </div>
       </nav>
       <div class="tab-content" id="nav-tabContent">
@@ -44,8 +48,6 @@
             </div>
         </div>
 
-        <div class="tab-pane fade p-5" id="nav-prototipo" role="tabpanel" aria-labelledby="nav-protipo-tab">
-        </div>
         <div class="tab-pane fade p-5" id="nav-introducción" role="tabpanel" aria-labelledby="nav-introducción-tab">
             <p class="animate__animated animate__slideInUp">Para el desarrollo del proyecto, daremos  a conocer de manera precisa todo lo referente con la gestión de información del ceet.
                 Esta especificación se ha estructurado basándose en las necesidades que han salido expuestas y se han venido evidenciando durante mucho tiempo.
@@ -53,7 +55,7 @@
                 </p>
         </div>
         <div class="tab-pane fade p-5" id="nav-objetivog" role="tabpanel" aria-labelledby="nav-objetivog-tab">
-            <p>Generar una herramienta  que de manera sistematizada  nos mejore la seguridad y precisión de datos y gestione la facilidad de ingreso y salida del personal del ceet.
+            <p class="animate__animated animate__flipInX animate__slow">Generar una herramienta  que de manera sistematizada  nos mejore la seguridad y precisión de datos y gestione la facilidad de ingreso y salida del personal del ceet.
                 Esto brindara un mecanismo mas fácil para las personas mitigando sus tiempos de espera y agilizando los procesos para su ingreso y demás.
             </p>
         </div>
@@ -65,7 +67,35 @@
                 <li class="p-1 animate__animated animate__backInUp">Evaluar si el mecanismo utilizado ayuda a solventar el problema de la perdida de tiempo en cuanto a las entradas y salidas del centro.</li>   
             </ul>
         </div>
+
+        <div class="tab-pane fade p-5" id="nav-planteamiento" role="tabpanel" aria-labelledby="nav-planteamiento-tab">
+            <p class="animate__animated animate__flip">Se creara una herramienta para la seguridad de docentes, estudiantes,  personal administrativo y visitantes del Sena, dónde se pueda evidenciar  
+                el control del personal  tanto el ingreso y la salida y tener una administración de sí misma la cual  es una  necesidad para la institución en temas de seguridad, 
+                a esta aplicación tenemos acceso todo  el personal  educativo facilitando  de manera digital y virtual el manejo de dicha plataforma.
+            </p>
+        </div>
+
+        <div class="tab-pane fade p-5" id="nav-alcance" role="tabpanel" aria-labelledby="nav-alcance-tab">
+            <p class="animate__animated animate__zoomIn">Se creara una herramienta para la seguridad de docentes, estudiantes,  personal administrativo y visitantes del Sena, dónde se pueda evidenciar  
+                el control del personal  tanto el ingreso y la salida y tener una administración de sí misma la cual  es una  necesidad para la institución en temas de seguridad, 
+                a esta aplicación tenemos acceso todo  el personal  educativo facilitando  de manera digital y virtual el manejo de dicha plataforma.
+            </p>
+        </div>
+
+        <div class="tab-pane fade p-5" id="nav-justificacion" role="tabpanel" aria-labelledby="nav-justificacion-tab">
+            <p class="animate__animated animate__zoomIn">
+             La   justificación   del   sistema   SCAS (Sistema de Control de Acceso SENA)  viene   motivada   por   la   necesidad   de   disponer   un control en las instalación del CEET para aumentar la seguridad en el mismo y dificultar los accesos no autorizados, 
+             el sistema estaría implementado en la entrada de las instalaciones para que el control sea ordenado y preciso. 
+             Este sistema seria aplicado a todos los componentes de nuestra institución como aprendices, instructores, administrativos y por ultimo a nuestros visitantes, para llevar un ordenado ingreso de todo este personal, 
+             para las personas que pertenecen en nuestra familia Sena, por medio de nuestro carnet institucional al ser pasado por el escáner o torniquete nos arroje los datos de la persona y también el tiempo de entrada y salida.
+            </p>
+        </div>
+
       </div>
+
+      <div class="p-2 m-2 bg-light text-dark">
+        <h3 class="animate__animated animate__fadeInRight animate__slow">SEGUNDO TRIMESTRE</h3>
+    </div>
 
 </body>
 </html>

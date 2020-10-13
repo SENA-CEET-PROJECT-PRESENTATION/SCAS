@@ -42,3 +42,13 @@
     background-color: aqua ;
     color: #000000;
 }
+
+#nav-planteamiento-tab:hover {
+    background-color: chocolate;
+    color: #ffffff;
+}
+
+#nav-planteamiento {
+    background-color: chocolate;
+    color: #ffffff;
+}
