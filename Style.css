@@ -32,3 +32,13 @@
     background-color:indianred ;
     color: #ffffff;
 }
+
+#nav-objetivoes-tab:hover {
+    background-color: aqua;
+    color: #000000;
+}
+
+#nav-objetivoes {
+    background-color: aqua ;
+    color: #000000;
+}
