@@ -56,3 +56,7 @@
     font-size: 13px;
     text-align: center;
 }
+.contenido{
+    justify-content: space-around;
+    text-align: center;
+}
